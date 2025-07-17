@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <a href="./index.html">Main Page</a>
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
-
-    <div class="timer">
-      <div class="field">
-        <span class="value" data-days>00</span>
-        <span class="label">Days</span>
+    <section class="timer-section">
+      <a class="title" href="./index.html">Main Page</a>
+      <div class="cal-wrapper">
+        <input type="text" id="datetime-picker" />
+        <button class="start-button" type="button" data-start>Start</button>
       </div>
-      <div class="field">
-        <span class="value" data-hours>00</span>
-        <span class="label">Hours</span>
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
       </div>
-      <div class="field">
-        <span class="value" data-minutes>00</span>
-        <span class="label">Minutes</span>
-      </div>
-      <div class="field">
-        <span class="value" data-seconds>00</span>
-        <span class="label">Seconds</span>
-      </div>
-    </div>
-
+    </section>
     <script type="module" src="./js/1-timer.js"></script>
   </body>
 </html>
