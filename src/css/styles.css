@@ -8,6 +8,7 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
+@import url('modern-normalize/modern-normalize.css');
 
 /* Sections style */
 @import url('./1-timer.css');
