@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+  width: 360px;
+}
+
+.snackbar-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fieldset {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  height: 78px;
+}
+
+input[type='number'] {
+  height: 40px;
+}
