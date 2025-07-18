@@ -24,13 +24,26 @@
   margin-bottom: 32px;
 }
 
-.flatpickr-input {
+#datetime-picker.flatpickr-input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 270px;
   padding-left: 16px;
   height: 38px;
   outline: none;
+}
+
+#datetime-picker.flatpickr-input:focus {
+  border-color: #4e75ff;
+}
+
+#datetime-picker.flatpickr-input:hover {
+  border-color: #000000;
+}
+
+#datetime-picker.flatpickr-input:disabled {
+  background-color: #fafafa;
+  color: #808080;
 }
 
 .start-button {
@@ -77,4 +90,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.flatpickr-day:hover {
+  background: #c1c1c1;
+  color: #666666;
+}
+
+.flatpickr-day.selected {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-color: #4e75ff;
+}
+
+.flatpickr-day.today {
+  border: 1px solid #4e75ff;
 }
