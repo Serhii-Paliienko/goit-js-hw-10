@@ -6,7 +6,6 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/goit-js-hw10/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
